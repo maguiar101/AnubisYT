@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  body {
+    /* Subtle dark gradient background with fixed attachment */
+    min-height: 100vh;
+    background: linear-gradient(
+      150deg,
+      #585656 0%,
+      #360b9a 25%,
+      #602f8a 50%,
+      #f26159 100%
+    );
+
+    background-attachment: fixed;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

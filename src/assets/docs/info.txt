@@ -1,0 +1,10 @@
+    
+API = "AIzaSyBkMjKVsA4GoW-UCdx5J9OQFJYE7mZXEHE"
+
+CHANNEL ID = UCBYRxdLyJJKbr5stwWfZqVg
+     
+Upload URL: `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=UUBYRxdLyJJKbr5stwWfZqVg&key=${API}`
+
+Playlist URL: `https://youtube.googleapis.com/youtube/v3/playlists?part=contentDetails%2C%20snippet&channelId=UCBYRxdLyJJKbr5stwWfZqVg&maxResults=10&key=${API}`
+
+Channel Stats URL; `https://youtube.googleapis.com/youtube/v3/channels?part=statistics&id=UCBYRxdLyJJKbr5stwWfZqVg&key=${API}`
